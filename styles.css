@@ -1,0 +1,120 @@
+/* styles for body*/
+body{  
+
+    width: 1 rem;
+    height: 80dvh;
+    /* background-image: url('https:');
+    background-size: cover;
+    background-repeat: no-repeat;; */
+}
+
+
+
+
+/* Styles for the calculator container */
+#total-calculator-area {
+    margin: auto;
+    margin-top: 20vh; 
+    border: 2px solid black;
+    height: 390px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1706727281590-d7d67ce1c447?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMzd8fHxlbnwwfHx8fHw%3D");
+
+}
+
+/* styles for buttons */
+#button-area {
+    margin: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.numbers, .operators, #point {
+    background-color: white !important;
+    height: 45px;
+    width: 60px;
+    padding: 5px;
+    color: black !important;
+    border-color: black !important;
+}
+#equals{
+    background-color: rgb(5, 209, 5) !important;
+    
+    
+}
+/* styles for input */
+#input-div {
+    width: 300px;
+    margin: 14px;
+    
+}
+input {
+    border-color: red;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    height: 40px;
+    font-size: 20px;
+;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 500px) {
+/* styles for body*/
+body{
+    width: 1 rem;
+    height: 80dvh;
+}
+
+
+
+/* Styles for the calculator container */
+#total-calculator-area {
+    margin: auto;
+    margin-top: 5vh;
+    border: 2px solid black;
+    height: auto;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1706727281590-d7d67ce1c447?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMzd8fHxlbnwwfHx8fHw%3D");
+
+}
+
+/* styles for buttons */
+#button-area {
+    margin: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+.numbers, .operators, #point {
+    background-color: white !important;
+    height: 45px;
+    padding: 5px;
+    color: black !important;
+    border-color: black !important;
+}
+button{
+    width:50px !important;
+}
+#equals{
+    background-color: rgb(5, 209, 5) !important;
+    border:none;
+}
+/* styles for input */
+#input-div {
+    width: 100%;
+    margin: 14px;
+}
+input {
+    border-color: red;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+}
